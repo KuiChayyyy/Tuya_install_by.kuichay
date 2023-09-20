@@ -2,9 +2,9 @@
 ## 1.Download the Tuya Smart or Smart Life application.
 <!-- ![Smart Life](images/1.jpg) -->
 ## 2.Add all available devices into the application
-<!-- ![Smart Life](images/2.jpg)
-![Smart Life](images/3.jpg) -->
+<img src="images/2.jpg" alt="drawing" style="width:200px;"/>
 <img src="images/3.jpg" alt="drawing" style="width:200px;"/>
+
 ## 3.Open Visual Studio Code and insert this code.
 
 ```python
@@ -28,3 +28,4 @@ Controlling and monitoring Tuya devices on your network requires the following:
 + Version - Tuya protocol version used (3.1, 3.2, 3.3, 3.4 or 3.5)
 + Local_Key - Security key needed to access the Tuya device.
 _[How to create a Local Key account](https://drive.google.com/file/d/1vFOuHW5U2BTnTE89QYxYuNbrO_0VqXns/view?usp=sharing)_
+
