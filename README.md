@@ -1,11 +1,11 @@
 # Start making TinyTuya
-## 1.Download the Tuya Smart or Smart Life application.
+### Download the Tuya Smart or Smart Life application.
 <!-- ![Smart Life](images/1.jpg) -->
-## 2.Add all available devices into the application
+### Add all available devices into the application
 <img src="images/2.jpg" alt="drawing" style="width:200px;"/>
 <img src="images/3.jpg" alt="drawing" style="width:200px;"/>
 
-## 3.Open Visual Studio Code and insert this code.
+### Open Visual Studio Code and insert this code.
 
 ```python
 import tinytuya
@@ -19,6 +19,11 @@ print('Device status: %r' % data)
 ```
 python -m pip install tinytuya
 ```
+### TinyTuya Network Scanner
+Scan for Address Device ID and Version for each device
+```
+python -m tinytuya scan
+```
 
 ### Tuya Device Preparation
 Controlling and monitoring Tuya devices on your network requires the following:
@@ -29,3 +34,12 @@ Controlling and monitoring Tuya devices on your network requires the following:
 + Local_Key - Security key needed to access the Tuya device.
 _[How to create a Local Key account](https://drive.google.com/file/d/1vFOuHW5U2BTnTE89QYxYuNbrO_0VqXns/view?usp=sharing)_
 
+Run Setup Wizard
+```
+python -m tinytuya wizard
+```
+The wizard will ask you to enter your API Key , API Secret , API Region (cn, us, us-e, eu, eu-w). You can see it on the Overview page.
++ API Key: Access ID/Client ID
++ API Secret: Access Secret/Client Secret
+
+The wizard creates a JSON file named device.json and contains all the device information, including name, id, and key. This list is: Local_Key of the device
