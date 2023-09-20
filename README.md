@@ -1,9 +1,6 @@
 # Start making TinyTuya
-### Download the Tuya Smart or Smart Life application.
-<!-- ![Smart Life](images/1.jpg) -->
-### Add all available devices into the application
-<!-- <img src="images/2.jpg" alt="drawing" style="width:200px;"/>
-<img src="images/3.jpg" alt="drawing" style="width:200px;"/> -->
+### Download the Tuya Smart or Smart Life application and pair the devices.
+_[How to add Tuya devices](https://drive.google.com/file/d/1gXuc2rUMfjgzfhC6qY4sOiTGmZElJLqX/view?usp=sharing)_
 
 ### Open Visual Studio Code and insert this code.
 
